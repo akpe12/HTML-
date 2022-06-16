@@ -1,0 +1,109 @@
+good practice!
+***
+dl tag 안에는 dt, dd 태그는 무조건 있어야 한다. 두 개 모두!
+
+
+1.
+<dl>
+	<dt>김버그</dt>
+	<dd>주니어 개발자의 성장 드라마를 다루는 유튜브 채널입니다.</dd>
+</dl>
+
+2.
+dd tag가 여러 개여도 괜찮다.
+<dl>
+	<dt>
+		<dfn>develoment</dfn>
+	</dt>
+	<dd>1. [U] 발달, 성장</dd>
+	<dd>2. [U, C] (신제품의) 개발; 신개발품</dd>
+</dl>
+
+3.
+dt tag가 여러 개여도 괜찮다.
+단, dd에 대한 용어이기 때문에 비슷하거나 같은 성질을 띄고 있어야 한다.
+따라나오는 dd가 dt를 모두 나타내줄 수 있어야 한다.
+<dl>
+	<dt>김버그</dt>
+	<dt>Kimbug</dt>
+	<dd>주니어 개발자의 성장 드라마를 다루는 유튜브 채널입니다.</dd>
+</dl>
+
+4.
+dt에 대한 다양한 성격의 설명이 들어가도 좋다.
+<dl>
+	<dt>김버그</dt>
+	<dd>주니어 개발자의 성장 드라마를 다루는 유튜브 채널입니다.</dd>
+	<dd>
+		<a href="https://www.youtube.com/channel/UCFDbz39kFPvU0AUpgHx4ICw" target="_blank">김버그 채널</a>
+	</dd>
+</dl>
+
+5.
+with div tag
+div는 보기 좋게 grouping해주는 역할이다!
+단, dl의 자식 요소는 div, dt, dd만 가능하다!
+
+<dl>
+	<div>
+		<dt>사과</dt>
+		<dd>사과는 이러이러하며, 이러이러한 과일이다.</dd>
+	</div>
+	<div>
+		<dt>바나나</dt>
+		<dd>바나나는 이러이러하며, 이러이러한 과일이다.</dd>
+	</div>
+</dl>
+
+---------------------------------------------------여기서부터 내가 작성한 html----------------------------------------------------------------
+<dl>
+	<dt>
+		<dfn>학습 學習 [학씁]</dfn>
+	</dt>
+	<dd>1. [n] 배워서 익힘.</dd>
+	<dd>2. [n] 심리 경험의 결과로 나타나는, 비교적 지속적인 행동의 변화나 그 잠재력의 변화. 또는 지식을 습득하는 과정</dd>
+</dl>
+
+<dl>
+	<div>
+		<dt>Open:</dt>
+		<dd>월요일, 화요일, 수요일, 목요일, 금요일</dd>
+	</div>
+	<div>
+		<dt>Close:</dt>
+		<dd>토요일, 일요일, 공휴일</dd>
+	</div>
+</dl>
+
+<dl>
+	<div>
+		<dt>Username:</dt>
+		<dd>김버그</dd>
+	</div>
+	<div>
+		<dt>Email:</dt>
+		<dd>kimbugx@gmail.com</dd>
+	</div>
+	<div>
+		<dt>Passport #:</dt>
+		<dd>M********</dd>
+	</div>
+	<div>
+		<dt>Nationality:</dt>
+		<dd>Republic of Korea</dd>
+	</div>
+</dl> 
+
+
+<dl>
+	<div>
+		<dt>Username:</dt>
+		<dd>김버그</dd>
+		<dt>Email:</dt>
+		<dd>kimbugx@gmail.com</dd>
+		<dt>Passport #:</dt>
+		<dd>M********</dd>
+		<dt>Nationality:</dt>
+		<dd>Republic of Korea</dd>
+	</div>
+</dl> 
