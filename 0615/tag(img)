@@ -1,0 +1,6 @@
+<img src="https://bit.ly/2mvVsGI" alt="강아지와 고양이"/>
+
+<img src="./images/sittingcat.png" alt="앉아있는 고양이"/>
+
+#두 번째 예시는 이미지가 저장된 상대경로를 src attribute 값에 넣어주었다.
+#여기에서 ./는 사진이 저장되어 있는 곳이 현재 html파일이 저장되어 있는 경로와 동일하다는 것을 의미한다.
