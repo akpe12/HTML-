@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>Form - Input</title>
+  <link rel="stylesheet" href="https://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="./form.css">
+</head>
+<body>
+    
+  <strong>회원가입</strong>
+  <form action="" method="GET">
+	<input type="text" placeholder="이름"/>
+	<input type="text" placeholder="아이디" minlength="3" maxlength="15"/>
+	<input type="password" placeholder="비밀번호" minlength="6" maxlength="15"/>
+	<input type="email" placeholder="이메일"/>
+	<input type="tel" placeholder="전화번호"/>
+	<input type="number" placeholder="나이"/>
+  <button>
+	  확인  
+  </button>
+  </form>
+    
+</body>
+</html>
+
+<!--button 태그에는 type attribute가 있고 submit, reset, button 값을 적을 수 있다.-->
