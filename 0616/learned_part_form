@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>Form - Input</title>
+  <link rel="stylesheet" href="https://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="./form.css">
+</head>
+<body>
+  <form action="" method="GET"> 
+	<input type="text" placeholder="검색어를 입력하세요." minlength="3" maxlength="13"/>
+	<input type="email" placeholder="이메일을 입력하세요." required/>
+	<input type="password" placeholder="비밀번호를 입력하세요." minlength="3" maxlength="12"/>
+ 	<input type="url" placeholder="지원서 url을 적어주세요."/>
+	<input type="number" min="8" max="60" placeholder="나이를 입력하세요.(8세 이상 60세 이하)"/>
+	<input type="file" accept=".jpg, .png, .mov"/>
+  <button>
+	Submit 
+  </button>
+  </form>	
+</body>
+</html>
