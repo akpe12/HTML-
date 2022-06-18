@@ -26,7 +26,7 @@
   <div class="input_field">
     <label for="member_bday">생년월일</label>
 	<input type="text" id="member_bday" name="member_bday" placeholder="YYYYMMDD"/>
-	<span class="input desc ko" id="bdayMsg"></span>
+	<span class="input desc ko" id="bdayMsg">필수 입력 사항이 아니에요.</span>
   </div>
   <div class="submit_button">
     <button type="submit" disabled>회원가입</button>  
