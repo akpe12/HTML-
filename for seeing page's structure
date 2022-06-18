@@ -1,0 +1,20 @@
+console에 ctrl c,v
+
+document.querySelector('*').style.boxSizing = 'border-box';
+document.querySelectorAll('div').forEach(e => e.style.border = "1px solid dodgerblue");
+document.querySelectorAll('span').forEach(e => e.style.border = "1px solid dodgerblue");
+document.querySelectorAll('ul').forEach(e => e.style.border = "1px solid dodgerblue");
+document.querySelectorAll('li').forEach(e => e.style.border = "1px solid dodgerblue");
+document.querySelectorAll('dd').forEach(e => e.style.border = "1px solid dodgerblue");
+document.querySelectorAll('dl').forEach(e => e.style.border = "1px solid dodgerblue");
+document.querySelectorAll('dd').forEach(e => e.style.border = "1px solid dodgerblue");
+document.querySelectorAll('section').forEach(e => e.style.border = "1px solid dodgerblue");
+document.querySelectorAll('h1').forEach(e => e.style.border = "1px solid dodgerblue");
+document.querySelectorAll('a').forEach(e => e.style.border = "1px solid dodgerblue");
+document.querySelectorAll('img').forEach(e => e.style.border = "1px solid dodgerblue");
+document.querySelectorAll('form').forEach(e => e.style.border = "1px solid dodgerblue");
+document.querySelectorAll('button').forEach(e => e.style.border = "1px solid dodgerblue");
+document.querySelectorAll('header').forEach(e => e.style.border = "1px solid dodgerblue");
+document.querySelectorAll('footer').forEach(e => e.style.border = "1px solid dodgerblue");
+document.querySelectorAll('input').forEach(e => e.style.border = "1px solid dodgerblue");
+document.querySelectorAll('p').forEach(e => e.style.border = "1px solid dodgerblue");
