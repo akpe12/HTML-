@@ -1,0 +1,42 @@
+<!--회원가입 창-->
+<!--div는 네이버 보고 임의로 따라한 것-->
+<!--아래처럼 하면, 위 아래 정보 중 하나만 서버에 전달된다.-->
+<!--form 하나에 위 아래 정보를 다 작성해서 input field를 만들어야 한다.-->
+<div class="sex">
+	<h3>
+		성별
+	</h3>
+	<form action="#" method="GET">
+	  <input type="radio" name="gender" id="gen_male" value="male"/>
+	  <label for="gen_male">남자</label>
+	  <input type="radio" name="gender" id="gen_female" value="female"/>
+	  <label for="gen_female">여자</label>
+	  <input type="radio" name="gender" id="gen_they" value="they"/>
+	  <label for="gen_they">X</label>
+	<button type="submit">확인</button>
+	</form>
+</div>
+
+<div class="user-genre">
+	<h3>
+		선호 음악 장르
+	</h3>
+	<form action="#" method="GET">
+	  <input type="checkbox" name="genre" id="k-pop" value="k-pop"/>
+	  <label for="k-pop">K-pop</label>
+	  <input type="checkbox" name="genre" id="rnb" value="rnb"/>
+	  <label for="rnb">R&B</label>
+	  <input type="checkbox" name="genre" id="alt" value="alt"/>
+	  <label for="alt">얼터네이티브</label>
+	  <input type="checkbox" name="genre" id="hp" value="hp"/>
+	  <label for="hp">힙합</label>
+	  <input type="checkbox" name="genre" id="indie" value="indie"/>
+	  <label for="indie">인디</label>
+	  <input type="checkbox" name="genre" id="jazz" value="jazz"/>
+	  <label for="jazz">재즈</label>
+	<button type="submit">확인</button>
+	</form>
+</div>
+
+<label for="counting">글자 수 세기</label>
+<textarea id="counting" placeholder="입력하세요."></textarea>
