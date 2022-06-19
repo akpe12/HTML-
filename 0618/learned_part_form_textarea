@@ -1,0 +1,8 @@
+여러 줄에 걸쳐 많은 양의 글을 input하려고 할 때 사용된다!
+
+* 많은 양의 글을 input 하고 싶다?
+-><textarea>  </textarea>
+🎈textarea 태그 안에서 rows와 cols의 제한을 두어 글을 쓸 칸을 넓히거나 줄일 수 있지만, css를 활용하는 게 더 좋다! 그래서 html에서는 아무것도 설정하지 않기로 한다.
+
+* textarea도 다른 input tag들과 마찬가지로 사용자의 편의를 위해 label을 설정해주는 게 좋다.
+-> 그렇다면? textarea에 id값을 설정해주어야 하겠다.
