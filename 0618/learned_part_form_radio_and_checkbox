@@ -1,4 +1,9 @@
-*type="radio" -> 선택지 중 하나만 고르도록 할 때
+* 등장하는 tag
+✔ type="radio" -> 선택지 중 하나만 고르도록 할 때
+✔ type="checkbox" -> 선택지 중 여러 선택지를 고를 수 있도록 할 때
+
+
+*type="radio"
 사용법 주의
 🎈label을 지어줘야 한다. 그렇다면? input field에서 꼭 id값을 할당해줘야 한다는 말!
 🎈한 선택지만 고를 수 있도록 하기 위해서는? 여러 input type="radio"들이 한 group안에 있다는 걸 명시해줘야 한다.
@@ -13,7 +18,7 @@
 ✔value
 
 
-*type="checkbox" -> 선택지 중 여러 선택지를 고를 수 있도록 할 때
+*type="checkbox"
 -> radio와의 차이점은 여러 선택지를 고를 수 있다는 것 말고는 없다.
 
 type=checkbox도 마찬가지로 name으로 grouping을 해줘야만 한다!
