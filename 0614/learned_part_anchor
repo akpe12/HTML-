@@ -8,4 +8,4 @@ anchor는 현 위치에서 다른 위치로 이동할 수 있도록 도와주는
 * 지금까지 배웠던 태그와는 다르게 anchor는 href라는 attribute를 꼭 명시해줘야 한다!
 
 즉, <a href="www.naver.com">네이버로 바로가기</a> 이런 식으로 사용해주면 된다.
-* href는 hyper-reference의 준말이며, reference는 주소값이라는 의미를 가지고 있다. 
+🎈href는 hyper-reference의 준말이며, reference는 주소값이라는 의미를 가지고 있다. 
