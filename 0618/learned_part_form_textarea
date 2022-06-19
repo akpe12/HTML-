@@ -1,4 +1,6 @@
 여러 줄에 걸쳐 많은 양의 글을 input하려고 할 때 사용된다!
+* 등장하는 태그
+✔ <textarea>
 
 * 많은 양의 글을 input 하고 싶다?
 -><textarea>  </textarea>
