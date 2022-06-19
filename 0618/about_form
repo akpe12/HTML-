@@ -1,0 +1,13 @@
+* input 태그에서 등장할 수 있는 공통 attribute
+✔ placeholder
+✔ maxlength or minlength -> 글자 수 제한 가능
+✔ required
+✔ value
+✔ id
+✔ name
+
+* type="file"에서 쓸 수 있는 attribute
+✔ accept
+
+* type="number"에서 쓸 수 있는 attribute
+✔ min or max -> 사용할 수 있는 최소 or 최대값 설정 가능
