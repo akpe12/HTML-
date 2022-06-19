@@ -1,0 +1,20 @@
+table tag는 데이터를 담은 표를 만들 때 쓰인다!
+
+* 등장하는 tag
+✔ <table>
+✔ <tr> -> 한 줄(행)을 시작하겠다는 신호탄!
+✔ <th> -> table header
+✔ <td> -> table data
+✔ <thead> -> 표의 category 혹은 비고 부분의 마킹을 끝냈다면 그 부분들을 <thead>로 감싸주면 명확한 html이 된다!
+✔ <tbody> -> 표의 내용 부분의 마킹을 끝냈다면 그 부분들을 <tbody>로 감싸주면 명확한 html이 된다!
+✔ <tfoot> -> 표의 결과 부분의 마킹을 끝냈다면 그 부분들을 <tfoot>으로 감싸주면 명확한 html이 된다!
+
+* 자주 쓰이는 attribute
+✔ <th scope="row" or "col"> -> th tag로 감싸고 있는 text가 col의 head인지 row의 head인지 명시해주는 게 좋다!
+✔ <td rowspan="#" or colspan="#"> -> column이 혹은 row가 여러 칸을 차지하는 표를 구현할 때 사용된다. # 안에 차지하는 칸만큼의 수를 적어주면 된다.
+
+🎈항상 할당해준 <th> tag의 개수의 맞게 <td>가 존재해야 한다!
+-> <td>에 쓸게 없다면, 그냥 비워두기라도 해라! <td></td>의 모양으로!
+
+🎈rowspan 혹은 colspan을 사용했다면?
+-> 차지당하는 다음 행의 칸을 비워둬야 하기 때문에, 이 경우에는 <td>를 개수에 맞지 않게 적어도 된다! (차지당하는 칸의 td는 비워둬야 하니까!)
