@@ -1,5 +1,5 @@
 image tag에는 무조건 두 개의 attribute가 명시되어야 한다.
-그것은 바로 src와 alt이다.
+🎈그것은 바로 src와 alt이다.
 따라서, <img src="#" alt="#"/> 이런 식으로 마킹업을 해주면 된다.
 
 src attribute의 값으로 넣어줄 수 있는 걸로는 두 가지가 있다.
