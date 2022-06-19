@@ -1,0 +1,37 @@
+<table>
+  <thead>
+	<tr>
+	  <th>사용자 No.</th>
+	  <th>이름</th>
+	  <th>나이</th>
+	  <th>성별</th>
+	  <th>거주지</th>  
+	</tr>
+  </thead>
+  <tbody>
+  	<tr>
+	  <!--이 자리에 th의 역할을 하는 요소가 와야한다면 당연히 th가 와도 상관없다.-->
+  	  <td>001</td>
+	  <td>김영옥</td>
+	  <td>48</td>
+	  <td>여</td>
+	  <td>양양</td>
+  	</tr>
+	<tr>
+  	  <td>002</td>
+	  <td>김강</td>
+	  <td>20</td>
+	  <td>남</td>
+	  <td>철원</td>
+  	</tr>  
+  </tbody>
+  <tfoot>
+  	<tr>
+  	  <td>2</td>
+	  <td>2</td>
+	  <td>34</td>
+	  <td>1:1</td>
+	  <td>강원도</td>
+  	</tr>
+  </tfoot>
+</table>
