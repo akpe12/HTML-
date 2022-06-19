@@ -1,0 +1,13 @@
+<label> 태그를 작성할 때는 항상 어떤 <input> 태그와 관련된 label인지 명시를 해줘야만 한다.
+그렇기 때문에 label 태그를 작성할 때는 무조건!
+-> <label for="연관지으려는 input 태그의 id값"> 이렇게 적어줘야 한다.
+
+*label은 ux를 개선하는 데에 있어서 의미가 있다.
+input field를 눌러야만 input field에 무언가를 입력할 수 있었지만, label을 작성해줌으로써 label부분을 눌러도 input field에 focusing이 되는 걸 목격할 수 있게 된다.
+=> 결국 사용자 편의에 도움을 준다!
+
+✔그러니 항상 확인해야 되는 것✔
+🎈input tag에 id를 할당해주었는지 확인!
+🎈label tag에 연관지으려는 input tag의 id를 넣어주었는지 확인!
+
+*<label for="input tag's id">
