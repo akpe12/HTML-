@@ -1,0 +1,7 @@
+사용법
+-> <button type="#">
+
+*button 태그의 type으로는 3가지의 값이 들어갈 수 있다.
+✔ submit -> 제출하는 용도로 버튼이 쓰일 때
+✔ reset -> 입력한 내용을 clear하는 용도로 버튼이 쓰일 때
+✔ button -> 그 외
