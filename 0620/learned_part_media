@@ -1,0 +1,10 @@
+미디어 파일들, 예를 들어 image, audio, video 파일들을 나의 html로 불러올 수 있는 tag들에 대해서 배웠다.
+* 등장하는 tag
+✔ <audio src="audio 파일이 있는 상대경로 혹은 주소">
+✔ <video src="video 파일이 있는 상대경로 혹은 주소">
+✔ <audio or video>
+        <source src="audio or video 파일이 있는 상대경로 혹은 주소" type="audio or video/파일의 확장자명에 맞는 값(사용할 때마다 구글링!)"
+* 등장하는 attribute
+✔ controls -> audio 그리고 video tag 안에 적어주면 오디오 파일과 비디오 파일을 컨트롤 할 수 있는 재생 버튼 등이 나타난다.
+✔ autoplay -> 페이지가 열리면 자동으로 미디어가 실행되도록 한다.
+✔ loop -> 미디어가 반복 재생되도록 한다.
