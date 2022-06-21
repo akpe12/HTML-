@@ -1,0 +1,22 @@
+<audio controls>
+	<source src="./medias/kimbug.mp3" type="audio/mpeg">
+	<source src="./medias/kimbug.ogg" type="audio/ogg">
+	<source src="./medias/kimbug.wav" type="audio/wav">
+	<p>브라우저를 업데이트 해주세요!</p>
+	<a href="https://browsehappy.com/">지금 업데이트 하기!</a>
+</audio>
+
+<video controls>
+	<source src="./medias/kimbug.mp4" type="video/mp4">
+	<source src="./medias/kimbug.mov" type="video/mov">
+	<p>브라우저를 업데이트 해주세요!</p>
+	<a href="https://browsehappy.com/">지금 업데이트 하기!</a>
+</video>
+
+#위처럼 audio와 video 마킹업을 했다는 건, 특정 확장자의 미디어 파일이 재생이 안 되는 브라우저가 있을 경우를 대비한 마킹업이다.
+#그래서 p태그와 a태그를 적어준 것의 용도는 대비로 적어준 source가 모두 통하지 않았을 때, 미디어 파일이 뜨지 않은 이유에 대해서 말해주는 것이다.
+
+<audio controls src="./medias/kimbug.mp3"></audio>
+
+간단하게 이렇게 작성해줄 수도 있다!
+단, 대비를 못한다!
