@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="쇼트 슬리브 니티드 폴로">
+  <title>COS 0-product</title>
+</head>
+<body>
+	<div class="image-section">
+		<a href="https://www.cos.com/ko-kr/men/shirts/polo-shirts/product.short-sleeved-knitted-polo-black.0200103011.html?slitmCd=40A0773996">
+			<img src="https://image.thehyundai.com/static/9/9/3/77/A0/hnm40A0773996_02_0200103_011_001_400.jpg" alt="쇼트 슬리브 니티드 폴로">
+		</a></div>
+	<div class="description">
+		<label class="product-title">
+			<a href="https://www.cos.com/ko-kr/men/shirts/polo-shirts/product.short-sleeved-knitted-polo-black.0200103011.html?slitmCd=40A0773996">
+				쇼트 슬리브 니티드 폴로
+			</a>
+		</label>
+		<div class="wish-btn">
+			<img src="https://image.thehyundai.com/cos_cdn/icon/heart.svg" alt="">
+			<img src="https://image.thehyundai.com/cos_cdn/icon/heart_active.svg" alt="">
+		</div>
+		<br/>
+		<label class="product-price">
+			<a href="https://www.cos.com/ko-kr/men/shirts/polo-shirts/product.short-sleeved-knitted-polo-black.0200103011.html?slitmCd=40A0773996">
+				105.000원
+			</a>
+		</label>
+		<div class="color-selection">
+			<img src="https://image.thehyundai.com/static/9/9/3/77/A0/hnm40A0773996_04_0200103_011_001_30.jpg" alt="">
+			<img src="https://image.thehyundai.com/static/0/2/0/50/A1/hnm40A1500203_04_0200103_068_001_30.jpg" alt="">
+		</div></div>
+</body>
+</html>
+
+* 고민됐던 것
+1. img tag를 head tag로 감쌀까 고민했다.
+2. 제품명인 "쇼트 슬리브 니티드 폴로"와 가격을 무슨 태그로 감쌀지가 너무나도 고민됐다.
+-> h tag, span tag, p tag 중 뭘로 하는 게 의미상 적절한 마킹업일지 고민이 됐다.
+h tag로 하기에는 가격도 같은 태그로 묶여야 하기 때문에, h tag로 감싸는 건 부적절하다고 판단했다.
+그래서 span tag와 p tag 중에서 고민하던 중, p tag를 선택했었다. 이유는 없었다.
+이유 없는 마킹업은 좋지 않은 행동이겠지만 span과 t tag의 차이를 잘 모르겠어서 그런 선택을 했다.
+하지만, 결론적으로 html에 적은 tag는 label이다. label로 감싼 이유는, cos 홈페이지를 직접 들어가보니 옷 이름과 가격을 label로 감싸고 있었기 때문이었다.
+베끼면서라도 뭔가 얻어갈 수 있지 않을까 하는 생각에서 홈페이지를 따라서 써보았다.
+label로 마킹업을 한 이유는 정확하지는 않지만, label이라는 영단어가 상표라는 의미를 갖고 있기에 재치있게 label로 감싼 것 같다.
+label은 input tag가 존재할 때 많이 쓰이는데, 이렇게 쓰인 걸 보니 깨달을 수 있는 게 있었다.
+- 마킹업에 정답은 없다는 것
+
+* 알아가는 것
+✔ html문서 작성 시, 위에서 아래로의 흐름을 따르되 요소 오른쪽에(같은 행에) 또다른 요소가 있다면 그 요소를 먼저 처리해준 다음 아래에 있는 요소를 처리할 것!
+
+* 찾아봐야 할 것
+✔ span과 p의 차이!
