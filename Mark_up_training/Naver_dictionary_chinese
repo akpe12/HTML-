@@ -16,30 +16,30 @@
     </button>
   </div>
   <dl>
-	  <div>
-	    <dt>
-	      <dfn>
-  	      <h1>
-		        <a href="https://zh.dict.naver.com/#/search?query=%E7%88%B1">爱</a>
-		        <a href="https://zh.dict.naver.com/#/search?query=%E6%83%9C">惜</a>
-		      </h1>
-	      </dfn>
-	    </dt>
-	    <dd>1. 아끼다</dd>
-	    <dd>2. 소중하게 여기다</dd>
-	    <dd>3. 매우 귀여워하다</dd>
-	    <dd>4. 애호하다</dd>	
-	  </div>
-	  <div>
-	    <dt>
-	      발음
-	    </dt>
-	    <dd>
+    <div>
+      <dt>
+	<dfn>
+  	  <h1>
+	    <a href="https://zh.dict.naver.com/#/search?query=%E7%88%B1">爱</a>
+            <a href="https://zh.dict.naver.com/#/search?query=%E6%83%9C">惜</a>
+          </h1>
+	</dfn>
+      </dt>
+      <dd>1. 아끼다</dd>
+      <dd>2. 소중하게 여기다</dd>
+      <dd>3. 매우 귀여워하다</dd>
+      <dd>4. 애호하다</dd>	
+    </div>
+    <div>
+    <dt>
+      발음
+    </dt>
+      <dd>
         [ àixī ]
         <button type="button">발음 듣기</button>
         <button type="button">반복 듣기</button>
       </dd>
-	  </div>
+    </div>
   </dl>
 </body>
 </html>
