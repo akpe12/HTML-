@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" lang="ko" content="CAVA LIFE 회원가입 페이지입니다.">
+	<title>log in - CAVA LIFE</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Arvo:wght@700&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@1,700&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Noto+Sans+KR&display=swap" rel="stylesheet">
+	<!-- webfont 혹은 css 파일을 불러올 때 link 태그가 쓰인다! -->
+</head>
+<body>
+	<!-- <script src=""></script> -->
+	<h3 style="font-family: 'Arvo', serif;">CAVA</h3>
+	<h3 style="font-family: 'Arvo', serif;">CAVA</h3>
+	<span style="font-family: 'Noto Sans KR', sans-serif;">CAVA 회원가입 페이지</span>
+</body>
+</html>
