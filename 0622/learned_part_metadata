@@ -1,0 +1,9 @@
+html문서의 head tag에는 meta data들이 들어간다.
+이러한 meta data에는 여러 종류의 것들이 있다.
+
+* meta datas
+✔ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+✔ <meta name="description" lang="ko" content="CAVA LIFE 회원가입 페이지입니다.">
+✔ <meta name="author" content="CAVA LIFE 회원가입 페이지입니다.">
+✔ <meta name="keywords" content="CAVA LIFE 회원가입 페이지입니다.">
+✔ <meta property="og:title or og:img or og:description" content="CAVA LIFE 회원가입 페이지입니다.">
