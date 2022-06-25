@@ -4,6 +4,19 @@ html문서의 head tag에는 meta data들이 들어간다.
 * meta datas
 ✔ <meta name="viewport" content="width=device-width, initial-scale=1.0">
 ✔ <meta name="description" lang="ko" content="CAVA LIFE 회원가입 페이지입니다.">
-✔ <meta name="author" content="CAVA LIFE 회원가입 페이지입니다.">
-✔ <meta name="keywords" content="CAVA LIFE 회원가입 페이지입니다.">
-✔ <meta property="og:title or og:img or og:description" content="CAVA LIFE 회원가입 페이지입니다.">
+✔ <meta name="author" content="CW co."> -> 현 html 문서의 작성자, 회사 등을 적어줄 수 있는 meta tag 양식
+✔ <meta name="keywords" content="cava, plate, mugs, ceramics"> -> 페이지를 대표하는 주요 키워드를 적어주면 된다.
+✔ <meta property="og:type or og:title or og:img or og:description" content="#">
+
+* property를 og:#로 설정한다는 건?
+-> 페이지를 sns로 공유할 때 미리보기 식으로 표현될 사진, 글 등의 값들을 정해주는 것이다!
+
+* property를 og:#로 설정했을 때 필요한 값
+- og:type -> content="현재 페이지 글의 type ex)article"
+- og:title -> content="현재 페이지의 대제목"
+- og:img -> content="사진의 주소"
+og:img:width, og:img:height, og:img:type으로 부가적인 content 값을 설정할 수도 있다.
+
+- og:description -> content="현재 페이지에 대한 정보 요약, 페이지의 내용에 대한 설명" (중요!)
+- og:url -> content="현 url"
+등등...
