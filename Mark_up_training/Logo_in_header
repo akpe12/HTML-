@@ -12,6 +12,7 @@
     <h1>
 	<!-- 원래(현재) 페이지로 돌아오기 -->
 	  <a href="./logo_in_header.html">
+		<!-- img tag를 사용하기 전에, 이 이미지가 정보적 가치가 있는지 생각해라! -->
 	    <img src="https://statics.goorm.io/logo/edu/goorm_edu.svg" alt="Goorm Edu">	
 	  </a>
   	</h1>
