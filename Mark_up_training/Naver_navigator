@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="네이버 네비게이터 메뉴">
+	<title>Navigator</title>
+</head>
+<body>
+	<!-- 네이버 메일 앞에는 원래 네이버 메일 로고가 있으나 정보적 가치가 없으므로 img tag를 따로 사용하지 않겠음 -->
+	<div class="navigator">
+		<div class="green-section">
+			<ul>
+				<li>
+					<a href="https://mail.naver.com/">
+						메일
+					</a>
+				</li>
+				<li>
+					<a href="https://section.cafe.naver.com/ca-fe/">
+						카페
+					</a>
+				</li>
+				<li>
+					<a href="https://section.blog.naver.com/BlogHome.naver?directoryNo=0&currentPage=1&groupId=0">
+						블로그
+					</a>
+				</li>
+				<li>
+					<a href="https://kin.naver.com/">
+						지식iN
+					</a>
+				</li>
+				<li>
+					<a href="https://shopping.naver.com/home/p/index.naver">
+						쇼핑
+					</a>
+				</li>
+				<li>
+					<a href="https://shoppinglive.naver.com/home">
+						쇼핑LIVE
+					</a>
+				</li>
+				<li>
+					<a href="https://order.pay.naver.com/home">
+						Pay
+					</a>
+				</li>
+				<li>
+					<a href="https://tv.naver.com/">
+						N TV
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div class="black-section">
+			<ul>
+				<li>
+					<a href="https://dict.naver.com/">
+						사전
+					</a>
+				</li>
+				<li>
+					<a href="https://news.naver.com/">
+						뉴스
+					</a>
+				</li>
+				<li>
+					<a href="https://finance.naver.com/">
+						증권
+					</a>
+				</li>
+				<li>
+					<a href="https://land.naver.com/">
+						부동산
+					</a>
+				</li>
+				<li>
+					<a href="https://map.naver.com/v5/?c=14131051.0289737,4495578.5568377,15,0,0,0,dh">
+						지도
+					</a>
+				</li>
+				<li>
+					<a href="https://vibe.naver.com/today">
+						VIBE
+					</a>
+				</li>
+				<li>
+					<a href="https://book.naver.com/">
+						책
+					</a>
+				</li>
+				<li>
+					<a href="https://comic.naver.com/index">
+						웹툰
+					</a>
+				</li>
+			</ul>
+		</div>
+		<button type="button">더보기</button>
+		<div class="more-section">
+			<dl>
+				<dt>ㄱ-ㅁ</dt>
+				<dd>
+					<a href="https://me.naver.com/tab/news.nhn">
+						구독
+					</a>
+				</dd>
+				<dd>
+					<a href="https://weather.naver.com/">
+						날씨
+					</a>
+				</dd>
+				<dd>
+					<a href="https://mycar.naver.com/apply">
+						네이버 MY CAR
+					</a>
+				</dd>
+				<dd>
+					<a href="https://m.booking.naver.com/my/bookings">
+						네이버 예약
+					</a>
+				</dd>
+				<dd>
+					<a href="https://contents.premium.naver.com/">
+						네이버 프리미엄콘텐츠
+					</a>
+				</dd>
+				<dd>
+					<a href="https://nid.naver.com/membership/join">
+						네이버플러스 멤버십
+					</a>
+				</dd>
+				<dd>
+					<a href="https://news.naver.com/">
+						뉴스
+					</a>
+				</dd>
+				<dd>
+					<a href="https://datalab.naver.com/">
+						데이터랩
+					</a>
+				</dd>
+				<dd>
+					<a href="https://memo.naver.com/">
+						메모
+					</a>
+				</dd>
+			</dl>
+		</div>
+	</div>
+</body>
+</html>
+
+* 고민됐던 것
+1. green zone과 black zone을 나눌지 말지에 대해 고민을 좀 했었다. 처음에는 "어차피 한 줄짜리 메뉴인데 그냥 div하나로 할까"라는 생각을 했는데
+생각을 하면 할수록 메뉴창의 색을 구분한 데에는 분명히 이유가 있지 않겠나라고 판단하여 green zone과 black zone으로 나누어 마크업 했다.
+
+* 알아가는 것
+✔ html 문서를 작성하면서도 문서를 틈틈히 저장하는 건 정말 중요하다고 느꼈다.
+중간에 사지방 컴퓨터 문제로 모든 문서가 강제종료 되었다...
+그래서 모두 다시 작성했다!
