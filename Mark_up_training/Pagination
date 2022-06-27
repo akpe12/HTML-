@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Pagination">
+	<title>Pagination</title>
+	<link rel="stylesheet" href="./css/breadcrumb.css">
+</head>
+<body>
+	<div class="pagination">
+		<ol>
+			<li>
+				<a href="#" aria-label="Go to previous page" class="disabled">
+					Previous
+				</a>
+			</li>
+			<li class="current-page">
+				<a href="#" aria-label="Current page, Go to page 1">
+					1
+				</a>
+			</li>
+			<li>
+				<a href="#" aria-label="Go to page 2">
+					2
+				</a>
+			</li>
+			<li>
+				<a href="#" aria-label="Go to page 3">
+				3
+			</a>
+			</li>
+			<li>
+				<button type="button" disabled>
+					...
+				</button>
+			</li>
+			<li>
+				<a href="#" aria-label="Go to page 4">
+					4
+				</a>
+			</li>
+			<li>
+				<a href="#" aria-label="Go to page 5">
+					5
+				</a>
+			</li>
+			<li>
+				<a href="#" aria-label="Go to page 6">
+					6
+				</a>
+			</li>
+			<li>
+				<a href="#" aria-label="Go to next page">
+					Next
+				</a>
+			</li>
+		</ol>	
+	</div>
+</body>
+</html>
+
+* 고민됐던 것
+
+* 알아가는 것
+✔ aria-label의 중요성이 느껴졌다. 눈으로 페이지를 보는 것에 익숙해져버린 나는 귀로 페이지를 듣는 입장에 공감하기가 어려워서
+자꾸 aria-label을 써줘야 할 상황임에도 불구하고 그냥 지나쳐버리는 것 같다.
+생각보다 내가 만든 페이지를 다양한 사람들이 볼 수 있다는 생각을 계속 해야한다!
