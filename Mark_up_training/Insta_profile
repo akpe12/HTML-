@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="질병관리본부 프로필 페이지">
+	<title>프로필</title>
+</head>
+<body>
+	<div class="header">
+		<div class="logo">
+			<h1>
+				<a href="https://www.naver.com" target="_blank">
+					<img src="https://fontmeme.com/images/instagram-new-logo.png" alt="인스타그램">
+				</a>
+			</h1>
+		</div>
+		<div class="search-box">
+			<form action="#" method="GET">
+				<input type="search" placeholder="검색">
+			</form>
+		</div>
+		<div class="sign-btn">
+			<a href="https://nid.naver.com/nidlogin.login?mode=form&url=https%3A%2F%2Fwww.naver.com">
+				로그인
+			</a>
+			<a href="https://nid.naver.com/user2/V2Join?m=agree&lang=ko_KR">
+				회원가입
+			</a>
+		</div>
+	</div>
+	<div class="profile">
+		<div class="user-profile">
+			<h1>
+				koreacdc
+				<img src="https://www.medigatenews.com/file/news/120419" alt="질병관리본부">
+			</h1>
+		</div>
+		<div class="user-follow-btn">
+			<button type="button">팔로우</button>
+		</div>
+		<div class="user-profile-cont">
+			<dl>
+				<div class="posts">
+					<dt>게시물</dt>
+					<dd>226</dd>
+				</div>
+				<div class="followed">
+					<dt>팔로워</dt>
+					<dd>69.5천</dd>
+				</div>
+				<div class="following">
+					<dt>팔로우</dt>
+					<dd>9</dd>
+				</div>
+			</dl>
+			<h2>질병관리본부</h2>
+			<p>
+				코로나19 대응에 최선을 다하겠습니다.
+				#사회적_거리_두기 #함께_실천해요
+			</p>
+		</div>
+	</div>
+</body>
+</html>
+
+* 고민됐던 것
+
+* 알아가는 것
+✔ dl이 내 생각보다 유연하게 사용될 수 있다는 걸 알아가는 것 같다.
+강의에서 배울 때는 dl 태그의 사용 시기에서의 예시로 사전과 관련된 정보를 취급할 때가 등장해서, 좀 딱딱한 분위기가 풍기는 정보들을 마크업할 때 dl을 사용해야겠다라고 생각하고 있었는데
+insta profile을 만드는 과정에서 dl은 key-value값의 정보를 다룰 때 빛이 나는 태그라는 걸 깨닫게 된 것 같다.
+게시물, 팔로워 수를 마크업 하는 데에 dl tag를 사용할 줄은 생각도 하지 못했다.
+더 유연한 사고를 가지고 tag를 작성해보자!
