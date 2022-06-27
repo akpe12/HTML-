@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="breadcrumb">
+	<title>Breadcrumb</title>
+	<link rel="stylesheet" href="./css/breadcrumb.css">
+</head>
+<body>
+	<div class="breadcrumb">
+		<a href="https://github.com/akpe12">
+			akpe12
+		</a>
+		<a href="https://github.com/akpe12/HTML-">
+			HTML-
+		</a>
+	</div>
+</body>
+</html>
+
+* 고민됐던 것
+
+* 알아가는 것
+✔ 생각보다 css의 능력은 어마어마하다는 걸 깨달았다.
+나는  akpe12 / HTML- 이라고 정보가 주어져 있으니 당연히 가운데에 있는 /(슬래시)를 tag로 감싸줘야하지 않겠나라는 생각을 했는데
+강연자는 이것마저도 css로 처리해버렸다.
+css가 할 수 있는 일이 스타일적인 부분인 걸로만 알았었는데 능력이 엄청나다는 걸 알았다.
+그래서 css를 배운다는 게 기대가 되면서도 걱정이 된다. 그 css의 능력을 자유자재로 사용할 수 있는 날이 오기를 바란다!
