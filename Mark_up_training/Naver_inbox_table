@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="My inbox">
+	<title>받은메일함(25) : 네이버 메일</title>
+</head>
+<body>
+	<table>
+    <thead>
+			<tr>
+				<th scope="col">Actions</th>
+				<th scope="col">IsRead</th>
+				<th scope="col">Sender</th>
+				<th scope="col">Text</th>
+				<th scope="col">Date</th>
+				<th scope="col">Size</th>
+			</tr>
+		</thead>
+	  <tbody>
+      <div class="mail-1">
+				<tr>
+					<td>
+						<div class="inbox-checkbox">
+							<input type="checkbox" id="isSelected">
+							<label for="isSelected" aria-label="이 메일을 선택하기">isSelected</label>
+						</div>
+						<div class="inbox-bookmark-btn">
+							<button type="button" aria-label="이 메일을 즐겨찾기에 추가하기">Add to bookmark</button>
+						</div>
+					</td>
+					<div class="inbox-isMarked">
+						<td class="read" aria-label="읽은 메일">
+							<span>read mail</span>
+						</td>
+					</div>
+					<div class="inbox-sender">
+						<td>
+							<span>Apple</span>
+						</td>
+					</div>
+					<div class="inbox-text">
+						<td>
+							<a href="#">
+								Apple에서 발행한 영수증입니다.
+							</a>
+						</td>
+					</div>
+					<div class="inbox-date">
+						<td>
+						<span>보낸 날짜 06-24 06:52</span>	
+					</td>
+					</div>
+					<div class="inbox-size">
+						<td>
+							<span>35.1KB</span>
+						</td>
+					</div>
+				</tr>
+			</div>
+			<div class="mail-2">
+				<tr>
+					<td>
+						<div class="inbox-checkbox">
+							<input type="checkbox" id="isSelected">
+							<label for="isSelected" aria-label="이 메일을 선택하기">isSelected</label>
+						</div>
+						<div class="inbox-bookmark-btn">
+							<button type="button" aria-label="이 메일을 즐겨찾기에 추가하기">Add to bookmark</button>
+						</div>
+					</td>
+					<div class="inbox-isMarked">
+						<td class="read" aria-label="읽은 메일">
+							<span>read mail</span>
+						</td>
+					</div>
+					<div class="inbox-sender">
+						<td>
+							<span>Lynn</span>
+						</td>
+					</div>
+					<div class="inbox-text">
+						<td>
+							<a href="#">
+								노마드가 환급반을?
+							</a>
+						</td>
+					</div>
+					<div class="inbox-date">
+						<td>
+						<span>보낸 날짜 06-24 06:35</span>	
+					</td>
+					</div>
+					<div class="inbox-size">
+						<td>
+							<span>160.4KB</span>
+						</td>
+					</div>
+				</tr>
+			</div>
+			<div class="mail-3">
+				<tr>
+					<td>
+						<div class="inbox-checkbox">
+							<input type="checkbox" id="isSelected">
+							<label for="isSelected" aria-label="이 메일을 선택하기">isSelected</label>
+						</div>
+						<div class="inbox-bookmark-btn">
+							<button type="button" aria-label="이 메일을 즐겨찾기에 추가하기">Add to bookmark</button>
+						</div>
+					</td>
+					<div class="inbox-isMarked">
+						<td class="unread" aria-label="안 읽은 메일">
+							<span>unread mail</span>
+						</td>
+					</div>
+					<div class="inbox-sender">
+						<td>
+							<span>중고나라</span>
+						</td>
+					</div>
+					<div class="inbox-text">
+						<td>
+							<a href="#">
+								[중고나라] 개인정보 처리방침 개선 안내
+							</a>
+						</td>
+					</div>
+					<div class="inbox-date">
+						<td>
+						<span>보낸 날짜 06-24 01:40</span>	
+					</td>
+					</div>
+					<div class="inbox-size">
+						<td>
+							<span>67.7KB</span>
+						</td>
+					</div>
+				</tr>
+			</div>
+			<div class="mail-4">
+				<tr>
+					<td>
+						<div class="inbox-checkbox">
+							<input type="checkbox" id="isSelected">
+							<label for="isSelected" aria-label="이 메일을 선택하기">isSelected</label>
+						</div>
+						<div class="inbox-bookmark-btn">
+							<button type="button" aria-label="이 메일을 즐겨찾기에 추가하기">Add to bookmark</button>
+						</div>
+					</td>
+					<div class="inbox-isMarked">
+						<td class="read" aria-label="읽은 메일">
+							<span>read mail</span>
+						</td>
+					</div>
+					<div class="inbox-sender">
+						<td>
+							<span>티머니</span>
+						</td>
+					</div>
+					<div class="inbox-text">
+						<td>
+							<a href="#">
+								티머니 5월 거래내역
+							</a>
+						</td>
+					</div>
+					<div class="inbox-date">
+						<td>
+						<span>보낸 날짜 06-23 21:05</span>	
+					</td>
+					</div>
+					<div class="inbox-size">
+						<td>
+							<span>11.4KB</span>
+						</td>
+					</div>
+				</tr>
+			</div>
+			<div class="mail-5">
+				<tr>
+					<td>
+						<div class="inbox-checkbox">
+							<input type="checkbox" id="isSelected">
+							<label for="isSelected" aria-label="이 메일을 선택하기">isSelected</label>
+						</div>
+						<div class="inbox-bookmark-btn">
+							<button type="button" aria-label="이 메일을 즐겨찾기에 추가하기">Add to bookmark</button>
+						</div>
+					</td>
+					<div class="inbox-isMarked">
+						<td class="unread" aria-label="안 읽은 메일">
+							<span>unread mail</span>
+						</td>
+					</div>
+					<div class="inbox-sender">
+						<td>
+							<span>잡코리아</span>
+						</td>
+					</div>
+					<div class="inbox-text">
+						<td>
+							<a href="#">
+								[채용시작] 가장 먼저 확인하세요.
+							</a>
+						</td>
+					</div>
+					<div class="inbox-date">
+						<td>
+						<span>보낸 날짜 06-23 14:40</span>	
+					</td>
+					</div>
+					<div class="inbox-size">
+						<td>
+							<span>40.9KB</span>
+						</td>
+					</div>
+				</tr>
+			</div>
+	  </tbody>
+	</table>
+</body>
+</html>
+
+* 고민됐던 것
+
+
+* 알아가는 것
+✔ 우리 눈에는 안 보이는 곳에서도 마크업이 필요하다는 걸 깨달았다. screen reader로 웹페이지를 사용해야 하는 사람들에 대한 배려가 html 문서를 작성할 때
+꼭 필요하다는 걸 알게 됐다.
+
+
+✔ td 하나에 여러 가지 내용이 들어갈 수 있다는 것을 알게 됐다.
+이유는 잘 모르겠지만 td하나에는 한 가지 내용만 들어가지 않나라는 착각을 자연스럽게 하고 있었다.
+
+
+* 모르겠는 것
+✔ action과 isread 부분이 클릭 시에 변화가 일어나게끔 만들어 보고 싶다.
+현재 isread에 대한 마크업이 맞는 건지 잘 모르겠다.
+분류와 찾기가 용이하도록 하기 위해 일부러 class를 나누고 screen reader사용자를 위해
+span으로 read와 unread를 적어두었는데 이렇게 하는 게 괜찮은 건지
+screen reader 비사용자들을 위한 효과를 구현해보면서 나의 html을 입증해보고 싶다.
+
+✔ 읽음 표시 이후로 메일 한 행의 어느 곳을 누르든 메일 읽기가 진행이 되는데 도대체 어떻게 이걸 구현할 수 있는 건지 모르겠다.
+div로 sender부터 size까지 묶고 anchor로 그 div를 묶으면 되긴 하겠지만 내 생각에 보기에 너무 복잡하고 표현이 어색할 것 같다.
