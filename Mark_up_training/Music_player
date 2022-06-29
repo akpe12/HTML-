@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="my playlist">
+	<title>My playlist - spotify</title>
+	<link rel="stylesheet" href="./css/music_player/music.css">
+</head>
+<body>
+	<ol class="music-player">
+		<!-- 재생 순서가 중요하므로 결국 ol! -->
+		<li class="music-play-item">
+			<img 
+				src="https://m.media-amazon.com/images/I/814Rp76DidL._SS500_.jpg" 
+				alt="러브 엑스 마키나" 
+			  lang="ko" 
+				class="music-album-cover"
+			/>
+			<div class="music-info">
+				<div class="music-info-detail">
+					<h1>
+						<span lang="ko">러브 엑스 마키나</span> 
+						Love Ex Machina
+					</h1>
+					<strong>
+						MLSL (밀레니엄 살롱)
+					</strong>
+				</div>
+				<span>
+					<span class="sr-only">
+						Duration
+					</span>
+					04:09
+				</span>
+			</div>
+			<audio src="./css/music_player/music-1.mp3" class="music-audio"></audio>
+		</li>
+		<li class="music-play-item">
+			<img 
+				src="http://image.genie.co.kr/Y/IMAGE/IMG_ARTIST/080/660/591/80660591_1560403300605_1_600x600.JPG" 
+				alt="올라가" 
+			  lang="ko" 
+				class="music-album-cover"
+			/>
+			<div class="music-info">
+				<div class="music-info-detail">
+					<h1>
+						<span lang="ko">올라가</span> 
+					</h1>
+					<strong>
+						권선홍
+					</strong>
+				</div>
+				<span>
+					<span class="sr-only">
+						Duration
+					</span>
+					03:33
+				</span>
+			</div>
+			<audio src="./css/music_player/music-2.mp3" class="music-audio"></audio>
+		</li>
+	</ol>
+	
+  <script src="./css/music_player/play.js"></script>
+</body>
+</html>
+
+* 고민됐던 것
+1. 이번 html 문서는 강의자가 준비해둔 CSS를 적용하는 단계까지 진행하고 싶어서 위처럼 마크업을 했지만, 내가 직접 모든 걸 짠다고 생각했을 때
+앨범의 커버 사진과 노래 제목, 그리고 가수의 이름을 어떻게 grouping할지 고민이 될 것 같다.
+강의자의 css를 생각하지 않고 나만의 방식대로 grouping을 한다고 했을 때 나는 앨범 커버 사진도 노래의 info라고 생각하기 때문에 info-detail class에 
+img까지 즉, 사진과 노래 제목 그리고 가수 이 세 가지 요소를 한 번에 grouping했을 것 같다.
+내가 직접 css를 구현할 줄 알게 된다면, 꼭 다시 이 html을 작성할 것이다.
+
+* 알아가는 것
+✔ js 코드로 control이라는 attribute 없이 노래 재생, 중단, 처음부터 다시 듣기 등이
+가능하다는 걸 알았다. js를 열심히 해야할 이유를 찾았다.
+
+✔ 마크업을 잘 해놓고, grouping을 잘 지어놓는다면 css를 만들때 훨씬 수월할 것 같다는 걸
+이번 음악 플레이어를 만들면서 알 수 있었다.
+
+✔ screen reader들만 알 수 있도록 문장을 마크업 해주는 방법을 알 수 있었다.
+항상, 어떻게 sr 비사용자들에게는 안 보이는데 sr 사용자들은 알 수 있게 할 수 있을까를
+고민했었는데 이제 이 부분에 대해서는 헷갈리지 않고 당당하게 마크업 해줄 수 있을 것 같다!
