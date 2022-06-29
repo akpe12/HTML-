@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Javascript basic for 3hours">
+	<title>Javascript for 3hours</title>
+</head>
+<body>
+	<div class="video-player">
+		<video>
+		<!-- 브라우저에서 특정 확장명의 영상이 재생되지 않을 수 있으므로
+		여러 확장명의 동일한 영상을 마크업한다. -->
+		<source src="" type="">
+		<source src="" type="">
+		<source src="" type="">
+	</video>
+	</div>
+	<div class="video-player-info">
+		<h1>
+			Learning javascript basic - process for beginners
+		</h1>
+		<p>
+			The perfect tutorial for javascript is splited 134 parts for beginners
+		</p>
+	</div>
+</body>
+</html>
