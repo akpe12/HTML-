@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Global navigation menu</title>
+</head>
+<body>
+	<nav>
+		<h1>
+			Global navigation menu
+		</h1>
+		<ul>
+			<li>
+				<span class="sr-only">Go to</span>
+				<!-- icon -->
+				<a href="#">
+					Home
+				</a>
+			</li>
+			<li>
+				<span class="sr-only">Go to</span>
+				<!-- icon -->
+				<a href="#">
+					Explore
+				</a>
+			</li>
+			<li>
+				<span class="sr-only">5 unread</span>
+				<!-- icon -->
+				<a href="#">
+					Notifications
+				</a>
+			</li>
+			<li>
+				<span class="sr-only">Go to</span>
+				<!-- icon -->
+				<a href="#">
+					Messages
+				</a>
+			</li>
+			<li>
+				<span class="sr-only">Go to</span>
+				<!-- icon -->
+				<a href="#">
+					Bookmarks
+				</a>
+			</li>
+			<li>
+				<span class="sr-only">Go to</span>
+				<!-- icon -->
+				<a href="#">
+					Lists
+				</a>
+			</li>
+			<li>
+				<span class="sr-only">Go to</span>
+				<!-- icon -->
+				<a href="#">
+					Profile
+				</a>
+			</li>
+			<li>
+				<!-- icon -->
+				<button type="button" aria-label="Open more menu">
+					More
+				</button>
+				<!-- Dropdownmenu -->
+				<div class="Drop-down-menu">
+					<div class="user-profile">
+						<h1>
+							<img src="#" alt="my-profile">
+							<strong>YCW</strong>
+						</h1>
+						<strong>@YCW</strong>
+					</div>
+					<div class="menu-list">
+						<ul>
+							<li>
+								<span class="sr-only">Go to</span>
+								<!-- icon -->
+								<a href="#">
+									Topics
+								</a>
+							</li>
+							<li>
+								<span class="sr-only">Go to</span>
+								<!-- icon -->
+								<a href="#">
+									Moments
+								</a>
+							</li>
+							<li>
+								<span class="sr-only">Go to</span>
+								<!-- icon -->
+								<a href="#">
+									Twitter Ads
+								</a>
+							</li>
+							<li>
+								<span class="sr-only">Go to</span>
+								<!-- icon -->
+								<a href="#">
+									Analytics
+								</a>
+							</li>
+							<li>
+								<span class="sr-only">Go to</span>
+								<!-- icon -->
+								<a href="#">
+									Settings and privacy
+								</a>
+							</li>
+							<li>
+								<span class="sr-only">Go to</span>
+								<!-- icon -->
+								<a href="#">
+									Help Center
+								</a>
+							</li>
+							<li>
+								<span class="sr-only">Go to</span>
+								<!-- icon -->
+								<a href="#">
+									Display
+								</a>
+							</li>
+							<li>
+								<span class="sr-only">Go to</span>
+								<!-- icon -->
+								<a href="#">
+									Log out
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</li>
+		</ul>
+	</nav>
+</body>
+</html>
+
+* 현재 나의 repository에는 올라와 있지는 않지만, twitter mark-up project 진행 중 global navigation을 마크업 하는 과정에서 만든 twitter global navigation menu이다.
+
+* 알아가는 것
+✔ 이번에 global navigation menu를 만드는 과정을 통해 drop down menu를 마크업 하는 방법을 복기할 수 있었다. 솔직히 조금 헷갈렸던 부분이었는데, 이번 프로젝트를 진행하면서
+drop down menu 마크업 시에 어떻게 하면 되는 건지 알 수 있게 되어 좋았다.
+정리하자면 아주 간단하다. 드롭다운 메뉴라는 건 어떤 버튼을 눌렀을 때 다양한 옵션들이 담겨있는 메뉴가 등장한다. 보기에는 굉장히 복잡해보이기에 헷갈리거나 지레 겁을 먹어
+잊어버리는 과정이 있을 수 있는데 정말 별거 없다. div로 드롭다운 메뉴를 위한 영역을 한번 만들어주고 그 안에서 내가 평상시에 메뉴를 만드는 것처럼 ol, ul 등을 이용해
+메뉴의 옵션들을 정리해주면서 마크업 해주면 된다.
